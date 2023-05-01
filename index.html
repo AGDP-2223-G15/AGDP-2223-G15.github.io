@@ -1,65 +1,73 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Aerospace Group Design Project</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<style>
-		h1 {
-			color: blue;
-			font-size: 36px;
-			text-align: center;
-		}
-		p {
-			font-size: 20px;
-			line-height: 1.5;
-			margin: 10px 0;
-			text-align: center;
-		}
-	</style>
+	<title>UoM Aerospace Design Project</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="slideshow.js"></script>
 </head>
+
 <body>
-	<header>
-		<h1>Aerospace Group Design Project</h1>
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="about.html">About</a></li>
-				<li><a href="dushyanth.html">Dushyanth</a></li>
-				<li><a href="hruday.html">Hruday</a></li>
-				<li><a href="panagiotis.html">Panagiotis</a></li>
-				<li><a href="rufaro.html">Rufaro</a></li>
-				<li><a href="sanjeeth.html">Sanjeeth Rao Mahe</a></li>
-			</ul>
-		</nav>
-	</header>
 
-	<main>
-		<section>
-			<h2>Welcome!</h2>
-			<p>Welcome to the website for our Aerospace Group Design Project, a unit part of our degree in Aerospace Engineering at the University of Manchester. On this website, you can learn more about our team and our project.</p>
-		</section>
+	<!-- About section -->
+	<section id="about">
+		<h1>About</h1>
+		<p>This is a website for our Aerospace Group Design Project, a unit part of our degree in Aerospace Engineering at the University of Manchester.</p>
+		<p>We are a team of 5 students working together to design an unmanned aerial vehicle for a class project. Learn more about us below!</p>
+	</section>
 
-		<section>
-			<h2>Our Project</h2>
-			<p>Our project is focused on designing and building an unmanned aerial vehicle (UAV) for remote sensing applications. We are working together to develop the airframe, control system, and payload for the UAV.</p>
-		</section>
+	<!-- Team section -->
+	<section id="team">
+		<h1>The Team</h1>
+		<div class="member">
+			<img src="teampics/dushyanth.jpg" alt="Dushyanth">
+			<h2>Dushyanth</h2>
+			<p>Third-year Aerospace Engineering student at the University of Manchester.</p>
+		</div>
+		<div class="member">
+			<img src="teampics/hruday.jpg" alt="Hruday">
+			<h2>Hruday</h2>
+			<p>Third-year Aerospace Engineering student at the University of Manchester.</p>
+		</div>
+		<div class="member">
+			<img src="teampics/panagiotis.jpg" alt="Panagiotis">
+			<h2>Panagiotis</h2>
+			<p>Third-year Aerospace Engineering student at the University of Manchester.</p>
+		</div>
+		<div class="member">
+			<img src="teampics/rufaro.jpg" alt="Rufaro">
+			<h2>Rufaro</h2>
+			<p>Third-year Aerospace Engineering student at the University of Manchester.</p>
+		</div>
+		<div class="member">
+			<img src="teampics/sanjeeth.jpg" alt="Sanjeeth Rao Mahe">
+			<h2>Sanjeeth Rao Mahe</h2>
+			<p>Third-year Aerospace Engineering student at the University of Manchester.</p>
+		</div>
+	</section>
 
-		<section>
-			<h2>The Team</h2>
-			<p>Meet the members of our team:</p>
-			<ul>
-				<li><a href="dushyanth.html">Dushyanth</a></li>
-				<li><a href="hruday.html">Hruday</a></li>
-				<li><a href="panagiotis.html">Panagiotis</a></li>
-				<li><a href="rufaro.html">Rufaro</a></li>
-				<li><a href="sanjeeth.html">Sanjeeth Rao Mahe</a></li>
-			</ul>
-		</section>
-	</main>
-
-	<footer>
-		<p>&copy; 2021 Aerospace Group Design Project</p>
-	</footer>
-</body>
-</html>
+	<!-- Photos section -->
+	<section id="photos">
+		<h1>Photos</h1>
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+				<img src="slideshow/photo1.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+				<img src="slideshow/photo2.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+				<img src="slideshow/photo3.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+				<img src="slideshow/photo4.jpg" style="width:100%">
+			</div>
+			<div class="mySlides fade">
+				<img src="slideshow/photo5.jpg" style="width:100%">
+			</div>
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
+		<div style="text-align:center">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(
