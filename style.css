@@ -8,6 +8,12 @@ nav {
   padding: 10px;
   font-size: 1.2rem;
 }
+/* underline and blue for links*/
+a {
+  color: blue;
+  text-decoration: underline;
+}
+
 
 nav ul {
   list-style: none;
