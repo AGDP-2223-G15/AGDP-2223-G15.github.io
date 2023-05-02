@@ -3,38 +3,6 @@
 <head>
 	<title>UoM Aerospace Design Project</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script type="text/javascript" src="slideshow.js"></script>
-	<script>
-window.addEventListener('load', function() {
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
-});
-</script>
-
 </head>
 
 <body>
@@ -45,70 +13,37 @@ function showSlides(n) {
 		<p>This is a website for our Aerospace Group Design Project, a unit part of our degree in Aerospace Engineering at the University of Manchester.</p>
 		<p>We are a team of 5 students working together to design an unmanned aerial vehicle for a class project. Learn more about us below!</p>
 	</section>
+	<h1 href="photos.html">Photos of our aircraft (click here)</h1>
+	</section>
 
 	<!-- Team section -->
 	<section id="team">
 		<h1>The Team</h1>
 		<div class="member">
 			<img src="teampics/dushyanth.jpg" alt="Dushyanth" style="width: 300px;">
-			<h2>Dushyanth</h2>
-			<p>Third-year Aerospace Engineering student at the University of Manchester.</p>
+			<h2>Dushyanth Srinivasan</h2>
+			<p>I study MSc Aerospace Engineering at the University of Manchester. I am interested in Computational Fluid Dynamics, Aerodynamics and UAV design. Feel free to connect with me, through the means below.</p>
 		</div>
 		<div class="member">
 			<img src="teampics/hruday.jpg" alt="Hruday" style="width: 300px;">
-			<h2>Hruday</h2>
-			<p>Third-year Aerospace Engineering student at the University of Manchester.</p>
+			<h2>Hruday Gupta</h2>
+			<p>Hello there! I am studying MSc Aerospace Engineering at the Uni of Manchester. I have a passion for motorsports, particularly in Formula 1 (#ELPLAN) and the aerospace industry (B-2 Spirit). I have designed and manufactured wings in the past. I am a professional CAD designer, and I am working on becoming an even better Structural/Stress Engineer. Talk to me!</p>
 		</div>
 		<div class="member">
 			<img src="teampics/panagiotis.jpg" alt="Panagiotis" style="width: 300px;">
-			<h2>Panagiotis</h2>
-			<p>Third-year Aerospace Engineering student at the University of Manchester.</p>
+			<h2>Panagiotis Karamitsos</h2>
+			<p>Hello, I am an enthusiastic MSc Aerospace Engineering student, studying at the University of Manchester that likes hands-on engineering tasks. I am passionate for group projects because they allow me to work with different people towards a specific mission/goal. I am interested in Aerodynamics, Acoustics and CFD.  </p>
 		</div>
 		<div class="member">
 			<img src="teampics/rufaro.jpg" alt="Rufaro" style="width: 300px;">
-			<h2>Rufaro</h2>
-			<p>Third-year Aerospace Engineering student at the University of Manchester.</p>
+			<h2>Rufaro Chevene</h2>
+			<p>Hi all, my name is Rufaro, a Masters student here at the University of Manchester. I have a background in Mechanical Engineering but decided to pursue my passion for Aerospace. I mainly helped with the manufacturing and propulsion side of the aircraft, participating in both static and dynamic (wind tunnel) propulsion tests.</p>
 		</div>
 		<div class="member">
-			<img src="teampics/sanjeeth.jpg" alt="Sanjeeth Rao Mahe" style="width: 300px;">
-			<h2>Sanjeeth Rao Mahe</h2>
-			<p>Third-year Aerospace Engineering student at the University of Manchester.</p>
+			<img src="teampics/sanjeeth.jpg" alt="Sanjeeth" style="width: 300px;">
+			<h2>Sanjeeth Rao Mahendrakar Kishore</h2>
+			<p>MSc Aerospace Engineering student at the University of Manchester. Responsible for the manufacturing and construction of the aircraft.</p>
+			<p href="https://www.linkedin.com/in/sanjeeth-mahendrakar-b8728321b/">LinkedIn</p>
 		</div>
 	</section>
-
-<h2>Photos</h2>
-<div class="slideshow-container">
-  <div class="mySlides fade">
-    <img src="slideshow/photo1.jpg" style="width: 300px;">
-  </div>
-
-  <div class="mySlides fade">
-    <img src="slideshow/photo2.jpg" style="width: 300px;">
-  </div>
-
-  <div class="mySlides fade">
-    <img src="slideshow/photo3.jpg" style="width: 300px;">
-  </div>
-  
-    <div class="mySlides fade">
-    <img src="slideshow/photo4.jpg" style="width: 300px;">
-  </div>
-  
-    <div class="mySlides fade">
-    <img src="slideshow/photo5.jpg" style="width: 300px;">
-  </div>
-
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
-
+</body>
